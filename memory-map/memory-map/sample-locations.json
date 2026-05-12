@@ -1,0 +1,22 @@
+[
+  {
+    "id": "PB-LOC-001",
+    "title": "Pulau Brani Village Memory",
+    "latitude": 1.256,
+    "longitude": 103.832,
+    "description": "A remembered area of former village life on Pulau Brani.",
+    "themes": ["village life", "resettlement", "family memory"],
+    "source": "Community oral history",
+    "public_use": "limited"
+  },
+  {
+    "id": "PB-LOC-002",
+    "title": "Former Jetty / Sea Route",
+    "latitude": 1.258,
+    "longitude": 103.835,
+    "description": "A remembered point connected to movement between islands and mainland Singapore.",
+    "themes": ["sea routes", "mobility", "maritime life"],
+    "source": "Community memory",
+    "public_use": "yes"
+  }
+]
