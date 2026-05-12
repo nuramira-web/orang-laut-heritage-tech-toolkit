@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Orang Laut / Orang Pulau Memory Map</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, sans-serif;
+    }
+
+    header {
+      padding: 1rem;
+      background: #f5f1e8;
+    }
+
+    #map {
+      height: 80vh;
+      width: 100%;
+    }
+
+    .note {
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Orang Laut / Orang Pulau Memory Map</h1>
+    <p class="note">
+      A community-led map of places, memories, routes, and stories connected to Singapore’s island and maritime communities.
+    </p>
+  </header>
+
+  <div id="map"></div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script>
+    const map = L.map('map').setView([1.256, 103.833], 14);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© OpenStreetMap contributors'
+    }).addTo(map);
+
+    const locations = [
+      {
+        id: "PB-LOC-001",
+        title: "Pulau Brani Village Memory",
+        latitude: 1.256,
+        longitude: 103.832,
+        description: "A remembered area of former village life on Pulau Brani.",
+        themes: ["village life", "resettlement", "family memory"],
+        source: "Community oral history",
+        public_use: "limited"
+      },
+      {
+        id: "PB-LOC-002",
+        title: "Former Jetty / Sea Route",
+        latitude: 1.258,
+        longitude: 103.835,
+        description: "A remembered point connected to movement between islands and mainland Singapore.",
+        themes: ["sea routes", "mobility", "maritime life"],
+        source: "Community memory",
+        public_use: "yes"
+      }
+    ];
+
+    locations.forEach(location => {
+      L.marker([location.latitude, location.longitude])
+        .addTo(map)
+        .bindPopup(`
+          <strong>${location.title}</strong><br>
+          ${location.description}<br><br>
+          <em>Themes:</em> ${location.themes.join(", ")}<br>
+          <em>Source:</em> ${location.source}<br>
+          <em>Public use:</em> ${location.public_use}
+        `);
+    });
+  </script>
+</body>
+</html>
