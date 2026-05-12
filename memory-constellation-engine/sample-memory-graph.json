@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "MEM-001",
+      "type": "ritual_memory",
+      "title": "Malam Tujuh Likur Memory",
+      "description": "A memory of lights, prayer, and preparation before Hari Raya on Pulau Brani.",
+      "themes": ["Ramadan", "Hari Raya", "ritual", "family memory"],
+      "emotions": ["belonging", "reverence", "longing"],
+      "source_id": "PB-ARCH-002",
+      "public_use": "Yes"
+    },
+    {
+      "id": "MEM-002",
+      "type": "foodway",
+      "title": "Communal Hari Raya Cooking",
+      "description": "Memories of preparing food with family and neighbours before Hari Raya.",
+      "themes": ["foodways", "women’s work", "festival preparation"],
+      "emotions": ["joy", "care", "continuity"],
+      "source_id": "PB-OH-001",
+      "public_use": "Yes"
+    },
+    {
+      "id": "MEM-003",
+      "type": "place",
+      "title": "Former Village Area",
+      "description": "A remembered area of former kampong life on Pulau Brani.",
+      "themes": ["village life", "resettlement", "family memory"],
+      "emotions": ["loss", "belonging", "nostalgia"],
+      "source_id": "PB-LOC-001",
+      "public_use": "Limited"
+    },
+    {
+      "id": "MEM-004",
+      "type": "maritime_memory",
+      "title": "Sea Route Between Islands",
+      "description": "A remembered route used for movement between Pulau Brani and surrounding islands.",
+      "themes": ["sea routes", "mobility", "navigation"],
+      "emotions": ["freedom", "resilience", "wonder"],
+      "source_id": "PB-ARCH-003",
+      "public_use": "Yes"
+    }
+  ],
+  "links": [
+    {
+      "source": "MEM-001",
+      "target": "MEM-002",
+      "relationship": "linked_to_preparation"
+    },
+    {
+      "source": "MEM-001",
+      "target": "MEM-003",
+      "relationship": "occurred_at"
+    },
+    {
+      "source": "MEM-003",
+      "target": "MEM-004",
+      "relationship": "linked_to_route"
+    },
+    {
+      "source": "MEM-002",
+      "target": "MEM-003",
+      "relationship": "shared_by_family"
+    }
+  ]
+}
