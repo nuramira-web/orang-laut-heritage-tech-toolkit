@@ -1,0 +1,22 @@
+# Knowledge Base Format
+
+Each item in the Ask Pulau Brani knowledge base should be reviewed before use.
+
+## Recommended fields
+
+- `source_id`: Unique ID, e.g. `PB-KB-001`
+- `title`: Title of source
+- `source_type`: Oral history, article, photograph, recipe, map, book excerpt, transcript
+- `community_review_status`: Pending, reviewed, approved, restricted
+- `public_use`: Yes / No / Limited
+- `summary`: Short summary
+- `key_topics`: Main themes
+- `related_places`: Places mentioned
+- `related_people`: People mentioned, if approved
+- `sensitivity`: Public, review needed, restricted, private
+- `citation`: How the source should be cited
+- `approved_text`: Text the chatbot may use
+
+## Rule
+
+Only `approved_text` from sources marked `public_use: Yes` or `public_use: Limited` should be used by the chatbot.
