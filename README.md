@@ -1,6 +1,4 @@
 # orang-laut-heritage-tech-toolkit
-Open-source tools for community-led maritime heritage documentation, storytelling, and responsible AI.
-# Orang Laut Heritage Tech Toolkit
 
 An open-source toolkit to support Orang Laut, Orang Pulau, and maritime heritage communities in documenting, preserving, and sharing their histories using accessible digital tools.
 
