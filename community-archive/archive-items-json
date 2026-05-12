@@ -1,0 +1,130 @@
+[
+  {
+    "archive_id": "PB-ARCH-001",
+    "title": "Family Photograph Near Pulau Brani Shoreline",
+    "material_type": "Photograph",
+    "contributor_name": "",
+    "preferred_public_credit": "Anonymous",
+    "community_or_island_connection": "Pulau Brani",
+    "date_or_period": "1960s",
+    "location": "Pulau Brani",
+    "description": "A family photograph connected to everyday island life near the shoreline.",
+    "story_context": "This photograph reflects everyday village life and family relationships on Pulau Brani before redevelopment and resettlement.",
+    "language_or_dialect": "Malay / English",
+    "public_use": "Limited",
+    "education_use": "Yes",
+    "ai_use": "No",
+    "sensitivity_level": "Community review needed",
+    "review_status": "Pending",
+    "themes": [
+      "village life",
+      "family memory",
+      "shoreline",
+      "community"
+    ],
+    "people_mentioned": [],
+    "places_mentioned": [
+      "Pulau Brani"
+    ],
+    "rituals_or_festivals": [],
+    "foodways": [],
+    "maritime_knowledge": [],
+    "related_interview_id": "",
+    "related_map_location_id": "",
+    "file_name": "photo-placeholder.jpg",
+    "file_format": "JPG",
+    "date_added": "2026-05-12",
+    "reviewed_by": "",
+    "date_reviewed": "",
+    "notes": ""
+  },
+  {
+    "archive_id": "PB-ARCH-002",
+    "title": "Malam Tujuh Likur Memory",
+    "material_type": "Oral History Excerpt",
+    "contributor_name": "",
+    "preferred_public_credit": "Pulau Brani Project",
+    "community_or_island_connection": "Pulau Brani",
+    "date_or_period": "Undated",
+    "location": "Pulau Brani",
+    "description": "A memory of preparations and lights before Hari Raya.",
+    "story_context": "The contributor recalls preparing lamps and gathering with neighbours during Malam Tujuh Likur in the days before Hari Raya.",
+    "language_or_dialect": "Malay",
+    "public_use": "Yes",
+    "education_use": "Yes",
+    "ai_use": "Yes",
+    "sensitivity_level": "Public",
+    "review_status": "Approved for educational use",
+    "themes": [
+      "Ramadan",
+      "Hari Raya",
+      "rituals",
+      "family memory",
+      "community"
+    ],
+    "people_mentioned": [],
+    "places_mentioned": [
+      "Pulau Brani"
+    ],
+    "rituals_or_festivals": [
+      "Malam Tujuh Likur",
+      "Hari Raya"
+    ],
+    "foodways": [],
+    "maritime_knowledge": [],
+    "related_interview_id": "PB-OH-001",
+    "related_map_location_id": "",
+    "file_name": "",
+    "file_format": "",
+    "date_added": "2026-05-12",
+    "reviewed_by": "",
+    "date_reviewed": "",
+    "notes": ""
+  },
+  {
+    "archive_id": "PB-ARCH-003",
+    "title": "Sea Route Between Islands",
+    "material_type": "Maritime Memory",
+    "contributor_name": "",
+    "preferred_public_credit": "Community Contributor",
+    "community_or_island_connection": "Orang Laut / Southern Islands",
+    "date_or_period": "1950s-1970s",
+    "location": "Southern Islands",
+    "description": "A remembered route used for movement between islands and mainland Singapore.",
+    "story_context": "The contributor describes travelling between islands by boat, navigating tides, currents, and weather conditions as part of everyday life.",
+    "language_or_dialect": "Malay",
+    "public_use": "Yes",
+    "education_use": "Yes",
+    "ai_use": "Yes",
+    "sensitivity_level": "Public",
+    "review_status": "Approved for educational use",
+    "themes": [
+      "maritime life",
+      "mobility",
+      "sea routes",
+      "navigation",
+      "community memory"
+    ],
+    "people_mentioned": [],
+    "places_mentioned": [
+      "Pulau Brani",
+      "Southern Islands",
+      "Singapore"
+    ],
+    "rituals_or_festivals": [],
+    "foodways": [],
+    "maritime_knowledge": [
+      "tides",
+      "currents",
+      "boat travel"
+    ],
+    "related_interview_id": "",
+    "related_map_location_id": "PB-LOC-002",
+    "file_name": "",
+    "file_format": "",
+    "date_added": "2026-05-12",
+    "reviewed_by": "",
+    "date_reviewed": "",
+    "notes": ""
+  }
+]
