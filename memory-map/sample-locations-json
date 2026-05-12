@@ -1,0 +1,34 @@
+[
+  {
+    "id": "PB-LOC-001",
+    "title": "Former Village Area",
+    "latitude": 1.256,
+    "longitude": 103.832,
+    "description": "A remembered area of former village life on Pulau Brani.",
+    "themes": ["village life", "family memory", "resettlement"],
+    "source": "Community oral history",
+    "related_interview_id": "PB-OH-001",
+    "public_use": "limited",
+    "sensitivity": "community review needed",
+    "media": [],
+    "contributor_credit": "Anonymous",
+    "date_added": "YYYY-MM-DD",
+    "review_status": "pending"
+  },
+  {
+    "id": "PB-LOC-002",
+    "title": "Former Jetty / Sea Route",
+    "latitude": 1.258,
+    "longitude": 103.835,
+    "description": "A remembered point connected to movement between islands and mainland Singapore.",
+    "themes": ["sea routes", "mobility", "maritime life"],
+    "source": "Community memory",
+    "related_interview_id": "",
+    "public_use": "yes",
+    "sensitivity": "public",
+    "media": [],
+    "contributor_credit": "Pulau Brani Project",
+    "date_added": "YYYY-MM-DD",
+    "review_status": "pending"
+  }
+]
