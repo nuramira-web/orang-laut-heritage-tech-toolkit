@@ -1,0 +1,236 @@
+# Digitisation Guide
+
+Digitisation helps preserve fragile materials and make them easier to share, search, study, and transmit across generations.
+
+The goal of digitisation is not only technical preservation, but also preservation of context, voice, memory, and cultural meaning.
+
+---
+
+# General principles
+
+## Preserve originals
+
+Whenever possible:
+
+- keep original files
+- avoid editing originals
+- create separate access copies
+- maintain backups
+
+## Record context immediately
+
+Metadata should be recorded at the time of digitisation whenever possible.
+
+Do not rely on memory later.
+
+---
+
+# Digitising photographs
+
+## Recommended approach
+
+- Scan at high resolution where possible
+- Use natural light if photographing
+- Avoid heavy filters or image manipulation
+- Preserve borders, handwriting, and physical marks
+
+## Recommended formats
+
+Preservation copy:
+- TIFF preferred
+
+Access copy:
+- JPG or PNG
+
+## Record:
+
+- who appears
+- approximate date
+- location
+- event or occasion
+- contributor name
+- related stories
+
+---
+
+# Digitising documents
+
+Examples:
+
+- letters
+- notebooks
+- recipes
+- certificates
+- maps
+- diaries
+
+## Recommended formats
+
+- PDF
+- TIFF
+- JPG
+
+## Important notes
+
+- Preserve original spelling
+- Preserve handwriting where possible
+- Record language or dialect used
+- Transcribe separately rather than altering originals
+
+---
+
+# Digitising audio
+
+Examples:
+
+- oral histories
+- songs
+- prayers
+- conversations
+- storytelling sessions
+
+## Recommended formats
+
+Preservation:
+- WAV
+
+Access:
+- MP3
+
+## Recording tips
+
+- Use quiet spaces where possible
+- Place microphone near speaker
+- Avoid interrupting
+- Preserve natural speech patterns
+
+## AI-assisted transcription
+
+AI tools may help with transcription, but:
+
+- transcripts must be reviewed
+- dialects may be mistranscribed
+- cultural terms may require human correction
+- code-switching may confuse systems
+
+---
+
+# Digitising video
+
+Examples:
+
+- interviews
+- cooking demonstrations
+- ritual documentation
+- boat journeys
+- festival recordings
+
+## Recommended formats
+
+- MP4 preferred
+
+## Capture context
+
+Record:
+
+- who appears
+- where filming occurred
+- whether filming permissions were granted
+- what activity is taking place
+- whether the material is public or restricted
+
+---
+
+# Digitising objects
+
+Examples:
+
+- fishing tools
+- kitchenware
+- textiles
+- prayer items
+- household objects
+
+## Photographing objects
+
+- Photograph multiple angles
+- Include scale if useful
+- Capture details and wear
+- Photograph associated packaging or labels
+
+## Record:
+
+- owner
+- use
+- material
+- approximate age
+- associated stories
+- ritual or practical significance
+
+---
+
+# File organisation
+
+Suggested structure:
+
+/archive/
+    /originals/
+    /access-copies/
+    /metadata/
+    /transcripts/
+    /translations/
+    /photos/
+    /audio/
+    /video/
+
+---
+
+# File naming conventions
+
+Use consistent naming.
+
+Example:
+
+PB-ARCH-001_photo_family-gathering_1960s.jpg
+
+Suggested structure:
+
+[Archive ID]_[Type]_[Short Description]_[Date]
+
+---
+
+# Backups
+
+Maintain:
+
+- local backup
+- cloud backup
+- institutional backup if possible
+
+Digital preservation is ongoing work.
+
+---
+
+# AI and digitisation
+
+AI tools may assist with:
+
+- transcription
+- translation
+- tagging
+- metadata generation
+- search
+- image organisation
+
+However:
+
+- human review remains essential
+- sensitive materials require caution
+- community consent must be respected
+- AI-generated interpretations should not replace community knowledge
+
+---
+
+# Final principle
+
+Digitisation should preserve not only information, but also relationships, atmosphere, memory, and cultural meaning.
