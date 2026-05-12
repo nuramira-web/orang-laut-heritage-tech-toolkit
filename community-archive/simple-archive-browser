@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pulau Brani Community Archive Browser</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      margin: 0;
+      background: #f8f4ec;
+      color: #1f2933;
+    }
+
+    header {
+      padding: 2rem;
+      background: #efe4d0;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    input, select {
+      padding: 0.7rem;
+      margin: 0.25rem 0.5rem 1rem 0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      min-width: 220px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 14px;
+      padding: 1rem 1.2rem;
+      margin-bottom: 1rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+
+    .meta {
+      color: #5c6670;
+      font-size: 0.9rem;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #f0eadf;
+      padding: 0.2rem 0.5rem;
+      border-radius: 999px;
+      margin: 0.15rem;
+      font-size: 0.8rem;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Pulau Brani Community Archive</h1>
+    <p>A simple browser for community-submitted memories, objects, stories, and materials.</p>
+  </header>
+
+  <main>
+    <input id="searchInput" type="text" placeholder="Search archive..." />
+
+    <select id="typeFilter">
+      <option value="">All material types</option>
+    </select>
+
+    <div id="archiveList"></div>
+  </main>
+
+  <script>
+    let archiveItems = [];
+
+    async function loadArchive() {
+      const response = await fetch("archive-items.json");
+      archiveItems = await response.json();
+      populateFilters();
+      renderArchive(archiveItems);
+    }
+
+    function populateFilters() {
+      const typeFilter = document.getElementById("typeFilter");
+      const types = [...new Set(archiveItems.map(item => item.material_type))];
+
+      types.forEach(type => {
+        const option = document.createElement("option");
+        option.value = type;
+        option.textContent = type;
+        typeFilter.appendChild(option);
+      });
+    }
+
+    function renderArchive(items) {
+      const archiveList = document.getElementById("archiveList");
+      archiveList.innerHTML = "";
+
+      if (items.length === 0) {
+        archiveList.innerHTML = "<p>No archive items found.</p>";
+        return;
+      }
+
+      items.forEach(item => {
+        const card = document.createElement("div");
+        card.className = "card";
+
+        const tags = (item.themes || [])
+          .map(theme => `<span class="tag">${theme}</span>`)
+          .join(" ");
+
+        card.innerHTML = `
+          <h2>${item.title}</h2>
+          <p>${item.description}</p>
+          <p class="meta">
+            <strong>ID:</strong> ${item.archive_id}<br>
+            <strong>Type:</strong> ${item.material_type}<br>
+            <strong>Connection:</strong> ${item.community_or_island_connection}<br>
+            <strong>Period:</strong> ${item.date_or_period}<br>
+            <strong>Location:</strong> ${item.location}<br>
+            <strong>Review:</strong> ${item.review_status}<br>
+            <strong>Sensitivity:</strong> ${item.sensitivity_level}
+          </p>
+          <div>${tags}</div>
+        `;
+
+        archiveList.appendChild(card);
+      });
+    }
+
+    function filterArchive() {
+      const searchTerm = document.getElementById("searchInput").value.toLowerCase();
+      const type = document.getElementById("typeFilter").value;
+
+      const filtered = archiveItems.filter(item => {
+        const text = JSON.stringify(item).toLowerCase();
+        const matchesSearch = text.includes(searchTerm);
+        const matchesType = !type || item.material_type === type;
+        return matchesSearch && matchesType;
+      });
+
+      renderArchive(filtered);
+    }
+
+    document.getElementById("searchInput").addEventListener("input", filterArchive);
+    document.getElementById("typeFilter").addEventListener("change", filterArchive);
+
+    loadArchive();
+  </script>
+</body>
+</html>
