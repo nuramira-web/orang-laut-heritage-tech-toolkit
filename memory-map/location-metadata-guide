@@ -1,0 +1,26 @@
+# Memory Map Metadata Guide
+
+Each location on the memory map should include enough information to help future users understand where the memory comes from and how it may be used.
+
+## Recommended fields
+
+- `id`: Unique location ID, e.g. `PB-LOC-001`
+- `title`: Public-facing name of the place
+- `latitude`: Approximate latitude
+- `longitude`: Approximate longitude
+- `description`: Short description of the place or memory
+- `themes`: Main themes connected to the place
+- `source`: Oral history, community memory, photograph, family archive, publication, etc.
+- `related_interview_id`: Oral history reference, if any
+- `public_use`: Yes, No, or Limited
+- `sensitivity`: Public, community review needed, restricted, sacred/private
+- `media`: Photo, audio, video, document, or object reference
+- `contributor_credit`: Name, initials, family name, anonymous, or restricted
+- `date_added`: Date added to the map
+- `review_status`: Pending, reviewed, approved, restricted
+
+## Important note
+
+Locations may be approximate.
+
+For sensitive places, such as burial sites, sacred locations, private family homes, or spiritually significant areas, avoid publishing exact coordinates unless the community has clearly agreed.
