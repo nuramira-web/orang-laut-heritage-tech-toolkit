@@ -1,0 +1,40 @@
+# Oral History Metadata Guide
+
+Metadata helps future generations understand what an interview contains, where it came from, and how it may be used.
+
+## Core fields
+
+- `interview_id`: Unique ID for the interview, e.g. `PB-OH-001`
+- `interviewee_full_name`: Full name of the person interviewed
+- `preferred_public_name`: Name the interviewee wants displayed publicly
+- `community_or_island_connection`: Pulau Brani, Pulau Semakau, Southern Islands, Orang Laut, Orang Pulau, etc.
+- `date_of_interview`: Date the interview was conducted
+- `location_of_interview`: Place of interview
+- `interviewer`: Name of interviewer
+- `language_or_dialect`: Language or dialect used
+- `recording_format`: Audio, video, written notes, photographs
+
+## Consent and permissions
+
+- `permission_public_use`: Whether the interview may be shared publicly
+- `permission_ai_transcription`: Whether AI tools may be used to transcribe
+- `permission_translation`: Whether the interview may be translated
+- `permission_photos_or_objects`: Whether related photos or objects may be documented
+- `usage_restrictions`: Any limits requested by the interviewee or family
+
+## Description fields
+
+- `key_topics`: Main themes discussed
+- `people_mentioned`: Family members, elders, neighbours, community figures
+- `places_mentioned`: Islands, villages, jetties, mosques, graves, beaches, routes
+- `rituals_or_festivals_mentioned`: Hari Raya, Malam Tujuh Likur, weddings, kenduri, funerals
+- `foodways_mentioned`: Dishes, recipes, fishing, foraging, cooking practices
+- `maritime_knowledge_mentioned`: Tides, boats, fishing methods, routes, taboos, sea knowledge
+- `related_photos_or_objects`: Any family archives, photographs, tools, documents, or objects mentioned
+
+## Review fields
+
+- `review_status`: Pending, reviewed, restricted, approved for public use
+- `reviewed_by`: Person who reviewed the material
+- `date_reviewed`: Date of review
+- `notes`: Any additional context
