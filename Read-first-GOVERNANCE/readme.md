@@ -1,56 +1,366 @@
+# Governance
+## Pulau Brani Project
 
-Governance, Consent, and Cultural Authority
+The governance layer of the Pulau Brani Project supports the responsible stewardship of cultural memory, oral histories, archives, language, storytelling, community participation, and AI-assisted heritage systems.
 
-This folder holds the cultural-data-governance layer of the Orang Laut Heritage Tech Toolkit. It defines how materials enter the archive, under what consent, with what attached protocols, and how cultural authority is honoured at every stage of the digital lifecycle.
+The project recognises that heritage stewardship is not only a technical challenge.
 
-The governance layer sits underneath the code. No item should be ingested, displayed, processed by AI tools, or surfaced through Ask Pulau Brani without first passing through these documents.
+It is also:
+- relational
+- ethical
+- political
+- emotional
+- intergenerational
+- linguistic
+- cultural
 
-What is here
-LOCAL_CONTEXTS_LABELS_REFERENCE.md: Full reference for the four Local Contexts  - Notices and twenty TK Labels, with guidance on when each applies.
+The governance framework therefore exists to help communities, contributors, educators, researchers, technologists, and institutions engage with heritage materials in ways that preserve dignity, nuance, participation, accountability, and care.
 
-CONSENT_AGREEMENT_TEMPLATE.md: Plain-language consent form for contributors and tradition-bearers. Bilingual (English / Bahasa Melayu) skeleton.
+---
 
-METADATA_SCHEMA.md: The cataloging schema used across all toolkit modules, including Local Contexts fields.
+# Why governance matters
 
-catalog_entry_template.md: A blank, fillable template for a single archive item.
+The Pulau Brani Project explores archives, oral histories, AI systems, storytelling tools, memory mapping, and participatory cultural interfaces.
 
-catalog_entry_example.mdA worked example showing the template populated.
+Without governance, these systems risk:
 
-The framework, in one paragraph
-The toolkit grounds its data governance in two interlocking standards. The CARE Principles for Indigenous Data Governance (Collective Benefit, Authority to Control, Responsibility, Ethics) set the values. The Local Contexts framework operationalises those values through machine-readable Notices and Labels that travel with the data wherever it goes. Together with FAIR (Findable, Accessible, Interoperable, Reusable), these form a stack: FAIR makes data useful, CARE makes data ethical, and Local Contexts makes both visible in the metadata itself.
+- flattening complex histories
+- extracting community knowledge
+- oversimplifying identity
+- exposing sensitive materials
+- reproducing bias
+- erasing uncertainty
+- privileging technical systems over lived relationships
+- treating cultural memory as neutral data
 
-Important framing note
-Local Contexts and TK Labels were developed primarily by and for Indigenous communities in settler-colonial contexts. The framework is increasingly being adopted by other communities whose cultural heritage has been displaced, fragmented, or held by external institutions — which includes the Orang Laut, Orang Pulau, and southern islanders of Singapore.
+The project therefore approaches governance not as an administrative afterthought, but as core cultural infrastructure.
 
-Whether and how this community wishes to position itself in relation to the global Indigenous data sovereignty movement is a decision for the community itself, not for the toolkit's authors. The toolkit provides the infrastructure; the community provides the authority. This folder is written to support that decision-making, not pre-empt it.
+Governance is what allows:
+- participation
+- trust
+- stewardship
+- accountability
+- ethical experimentation
+- long-term sustainability
 
-Sequencing: how to actually roll this out
+---
 
-Register the project on the Local Contexts Hub (localcontextshub.org) as an Institution or Researcher account. This generates the project URIs that get embedded in your metadata.
+# What cultural stewardship means
 
-Apply the four Notices (TK, BC, Attribution Incomplete, Open to Collaborate) as project-level placeholders. These signal that this is a heritage project with cultural rights and responsibilities attached, and that Labels are under development.
-Begin community engagement through the Youth Co-Creation Lab, elder workshops, and Pulau Brani Project partners. The goal is co-creating a customised suite of TK Labels — title text, default text, translations into local Malay — that the community will then own and apply.
+The Pulau Brani Project approaches cultural stewardship as an ongoing relational responsibility rather than simple ownership or content management.
 
-Establish a community decision-making body (council, advisory circle, named tradition-bearers) empowered to approve Label customisation and item-level Label application. Document its composition and process.
+Cultural stewardship involves:
 
-Apply Labels at the item level once the community has authorised them. Until then, items carry the project-level Notices.
-Make Labels and Notices visible at every point the material is displayed: in the Community Archive, on Memory Map markers, in Ask Pulau Brani responses, in Memory Constellation Engine results, and in any export or API response.
+- caring for memory
+- preserving context
+- respecting contributors
+- recognising community authority
+- acknowledging uncertainty
+- supporting intergenerational transmission
+- protecting sensitive knowledge
+- enabling participation
+- balancing access with care
+- preserving plurality of interpretation
 
+The project recognises that cultural memory is not simply information.
 
-Hard rules
+It may involve:
+- emotion
+- ritual
+- spirituality
+- family relationships
+- migration
+- displacement
+- humour
+- grief
+- foodways
+- dialect
+- sea knowledge
+- community identity
 
-Icons are not modifiable. Local Contexts icons are internationally recognisable and protected. Use them exactly as provided.
-Notices do not require community sign-off, but Labels do. Do not invent or apply a Label without community authority.
-Consent is revocable. A contributor can withdraw an item at any time. The system must support this; see CONSENT_AGREEMENT_TEMPLATE.md.
+These forms of knowledge require forms of governance that exceed conventional copyright and technical access models.
 
-Sacred and gender-restricted material does not transit through general-purpose AI systems. Items carrying TK Secret/Sacred, TK Women Restricted, or TK Men Restricted Labels are excluded from Ask Pulau Brani training and retrieval, and from the Memory Constellation Engine's public surface.
+---
 
-Every export carries the Notices and Labels. Metadata travels with the data.
+# Relationship to open-source culture
 
+The Pulau Brani Project embraces many principles associated with open-source culture, including:
 
-Related standards
+- accessibility
+- participation
+- collaborative contribution
+- transparency
+- interoperability
+- shared learning
+- iterative improvement
 
-CARE Principles — gida-global.org/care
-FAIR Principles — go-fair.org/fair-principles
-Local Contexts — localcontexts.org
-Mukurtu CMS — mukurtu.org (prior art: a community-controlled archive platform with TK Labels built in)
+However, the project also recognises that conventional open-source licensing alone is insufficient for governing cultural memory.
+
+Some materials may require:
+- community review
+- layered permissions
+- family stewardship
+- contextual restrictions
+- AI restrictions
+- culturally specific obligations
+
+The project therefore seeks to balance openness with relational responsibility.
+
+---
+
+# Relationship to existing governance frameworks
+
+The governance approach is informed by and in dialogue with existing work in:
+
+- Indigenous data governance
+- participatory archives
+- oral history ethics
+- digital humanities
+- community-led heritage stewardship
+- ethical AI governance
+
+Important reference points include:
+
+## Local Contexts
+
+The project draws inspiration from the Local Contexts initiative and its Traditional Knowledge (TK) and Biocultural (BC) Labels framework.
+
+TK Labels help communicate culturally specific expectations around:
+- attribution
+- outreach
+- commercial use
+- family stewardship
+- seasonal access
+- gendered access
+- sacred knowledge
+- community authority
+
+The project recognises that copyright alone cannot fully express these relationships and obligations.
+
+https://localcontexts.org/
+
+---
+
+## CARE Principles for Indigenous Data Governance
+
+The project draws inspiration from the CARE Principles:
+
+- Collective Benefit
+- Authority to Control
+- Responsibility
+- Ethics
+
+CARE complements technical openness with relational and ethical stewardship obligations.
+
+https://www.gida-global.org/care
+
+---
+
+## Mukurtu CMS
+
+The project acknowledges Mukurtu CMS as an important precedent in community-controlled digital heritage stewardship.
+
+Mukurtu demonstrates approaches to:
+- layered permissions
+- culturally responsive access
+- community governance
+- relational metadata
+- participatory archive systems
+
+https://mukurtu.org/
+
+---
+
+## Other influences
+
+The project is also informed by:
+- oral history methodologies
+- participatory design
+- digital humanities
+- responsible AI research
+- community archive practices
+- Southeast Asian maritime heritage work
+- Singapore heritage and oral history initiatives
+
+---
+
+# Key governance principles
+
+## 1. Community stewardship over extraction
+
+Communities should participate meaningfully in shaping how their histories, memories, languages, and cultural materials are documented, interpreted, circulated, and accessed.
+
+The project rejects extractive approaches to heritage collection.
+
+---
+
+## 2. Consent is ongoing
+
+Consent is not treated as a one-time transaction.
+
+Contributors may:
+- revise permissions
+- request removal
+- restrict access
+- withdraw consent
+- request contextual changes
+- opt out of AI use
+
+Stewardship relationships continue after publication.
+
+---
+
+## 3. Human review remains essential
+
+AI-assisted systems may support:
+- transcription
+- translation
+- retrieval
+- tagging
+- summarisation
+- storytelling
+- relationship mapping
+
+However, human and community review remain essential.
+
+The project does not treat AI-generated outputs as authoritative historical truth.
+
+---
+
+## 4. Preserve uncertainty honestly
+
+Not all histories are singular, settled, or fully documented.
+
+The project seeks to preserve:
+- ambiguity
+- plurality
+- incomplete memory
+- contested interpretation
+- evolving understanding
+
+The project rejects false certainty.
+
+---
+
+## 5. Preserve plurality
+
+Orang Laut, Orang Pulau, and maritime communities are not singular or uniform identities.
+
+The project seeks to preserve:
+- multiple histories
+- multiple voices
+- linguistic variation
+- ritual variation
+- family specificity
+- differing interpretations
+
+---
+
+## 6. Cultural dignity matters
+
+Heritage materials should not be reduced to:
+- spectacle
+- aesthetic extraction
+- trauma content
+- nostalgia without complexity
+- flattening simplification
+
+Public storytelling should preserve dignity, context, and complexity.
+
+---
+
+## 7. Accessibility across generations
+
+The project seeks to make heritage legible and meaningful across generations.
+
+This includes:
+- students
+- elders
+- educators
+- families
+- researchers
+- community contributors
+- public audiences
+
+Accessibility includes:
+- language accessibility
+- technological accessibility
+- emotional accessibility
+- educational accessibility
+
+---
+
+## 8. Participation over passive consumption
+
+The project prioritises participatory stewardship.
+
+Communities and younger generations should be able to:
+- contribute
+- annotate
+- reinterpret
+- remix responsibly
+- question
+- reflect
+- build
+- collaborate
+
+Heritage is treated as a living process rather than a static collection.
+
+---
+
+## 9. Explainability matters
+
+AI-assisted systems should remain:
+- interpretable
+- reviewable
+- source-grounded
+- transparent about uncertainty
+
+Users should understand:
+- where information came from
+- what was inferred
+- what remains uncertain
+- what requires review
+
+---
+
+## 10. Governance is evolving
+
+The project recognises that governance frameworks are incomplete and evolving.
+
+The governance layer is expected to develop through:
+- community participation
+- interdisciplinary collaboration
+- institutional dialogue
+- technological change
+- ethical reflection
+- ongoing stewardship practice
+
+---
+
+# Governance areas within the project
+
+This governance framework supports:
+
+- community archive systems
+- oral histories
+- memory mapping
+- AI-assisted retrieval
+- chatbot systems
+- dialect and vocabulary archives
+- educational tools
+- AI remix systems
+- advocacy and storytelling tools
+- youth participation spaces
+- public exhibitions and presentations
+
+---
+
+# Long-term goal
+
+The long-term goal is not simply to build heritage technologies.
+
+The goal is to explore how communities, institutions, educators, and younger generations may steward cultural memory responsibly in increasingly digital and AI-mediated futures.
+
+The project therefore treats governance not as restriction, but as a framework for care, participation, accountability, and relational continuity.
+
