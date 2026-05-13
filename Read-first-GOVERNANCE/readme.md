@@ -1,5 +1,6 @@
 
 Governance, Consent, and Cultural Authority
+
 This folder holds the cultural-data-governance layer of the Orang Laut Heritage Tech Toolkit. It defines how materials enter the archive, under what consent, with what attached protocols, and how cultural authority is honoured at every stage of the digital lifecycle.
 
 The governance layer sits underneath the code. No item should be ingested, displayed, processed by AI tools, or surfaced through Ask Pulau Brani without first passing through these documents.
