@@ -1,0 +1,5 @@
+pip install -r requirements.txt
+export OPENAI_API_KEY="your-api-key"
+python narrative-builder.py
+
+it generates: generated-narrative.json 
