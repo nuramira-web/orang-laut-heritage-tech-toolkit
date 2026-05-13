@@ -1,0 +1,224 @@
+# Metadata Schema
+
+This is the cataloging schema for every item that enters the Orang Laut Heritage Tech Toolkit. It is designed to be:
+
+- *Compatible* with Dublin Core, DataCite, and Mukurtu CMS conventions, so items can be exported and federated.
+- *Aligned* with the CARE Principles and the Local Contexts Notices and Labels framework.
+- *Bilingual-friendly*, with fields for both English and Bahasa Melayu titles, descriptions, and Label translations.
+- *Honest about uncertainty.* Many fields explicitly carry verified_by_community and confidence markers, because heritage material is rarely fully certain.
+
+The schema is expressed below in JSON for machine readability. A human-readable, fillable Markdown version sits in catalog_entry_template.md.
+
+-----
+
+## JSON shape
+
+json
+{
+  "item_id": "olht-0000",
+  "item_type": "oral_history | photograph | recipe | song | prayer | ritual_description | map | object | dialect_entry | video | other",
+
+  "titles": {
+    "primary": "",
+    "bm": "",
+    "alt": []
+  },
+
+  "descriptions": {
+    "short_en": "",
+    "short_bm": "",
+    "long_en": "",
+    "long_bm": ""
+  },
+
+  "contributors": [
+    {
+      "role": "narrator | photographer | recipient | translator | interviewer | community_representative | other",
+      "name_public": "",
+      "name_internal": "",
+      "attribution_style": "full_name | first_name | initials | community_member | anonymous | other",
+      "consent_record_id": "consent-0000",
+      "community_affiliation": ""
+    }
+  ],
+
+  "dates": {
+    "created": "",
+    "created_uncertainty": "exact | approximate | decade | era | unknown",
+    "recorded_or_received": "",
+    "cataloged": ""
+  },
+
+  "places": [
+    {
+      "name": "",
+      "name_bm": "",
+      "type": "village | island | sea_route | landing | grave_site | ritual_site | named_water | other",
+      "coordinates": { "lat": null, "lng": null },
+      "coordinate_precision": "exact | approximate | redacted_for_protection | unknown"
+    }
+  ],
+
+  "languages": ["bm-SG", "ms", "en", "other"],
+  "dialect_notes": "",
+
+  "subjects": [],
+  "themes": ["maritime_memory", "foodways", "ritual", "migration", "kinship", "dialect", "resettlement", "other"],
+
+  "media": {
+    "primary_file": "",
+    "format": "audio/wav | image/jpeg | video/mp4 | text/plain | application/pdf | other",
+    "duration_seconds": null,
+    "transcription_file": "",
+    "translation_file": "",
+    "derivative_files": []
+  },
+
+  "provenance": {
+    "source": "",
+    "chain_of_custody": "",
+    "attribution_incomplete": false,
+    "attribution_notes": ""
+  },
+
+  "rights": {
+    "license_code": "",
+    "license_notes": ""
+  },
+
+  "local_contexts": {
+    "hub_project_uri": "",
+    "notices": [
+      {
+        "code": "TK-Notice",
+        "scheme": "Local Contexts",
+        "scheme_uri": "https://localcontexts.org",
+        "text": ""
+      }
+    ],
+    "labels": [
+      {
+        "code": "",
+        "name": "",
+        "scheme": "Local Contexts",
+        "scheme_uri": "https://localcontexts.org",
+        "hub_label_uri": "",
+        "text_default": "",
+        "text_customised": "",
+        "text_bm": "",
+        "applied_by": "",
+        "applied_date": ""
+      }
+    ]
+  },
+
+  "access": {
+    "tier": "public | educators_researchers | community | family | restricted_named | sacred_excluded",
+    "tier_rationale": "",
+    "named_persons_or_groups": [],
+    "ai_processing": "allowed | community_internal_only | research_only | excluded"
+  },
+
+  "consent": {
+    "consent_record_id": "consent-0000",
+    "date_obtained": "",
+    "obtained_by": "",
+    "verbal_or_written": "verbal | written | both",
+    "audio_record_path": "",
+    "revocable": true,
+    "revocation_contact": ""
+  },
+
+  "community_review": {
+    "verified_by_community": false,
+    "verified_by": "",
+    "verification_date": "",
+    "verification_notes": "",
+    "confidence": "high | medium | low | unknown"
+  },
+
+  "sensitivities": {
+    "flags": [
+      "death", "ancestors", "contested_history", "named_persons_deceased",
+      "ritual_specificity", "gender_protocol", "seasonal_protocol", "other"
+    ],
+    "advisory_text": ""
+  },
+
+  "relationships": [
+    {
+      "related_item_id": "",
+      "relationship_type": "depicts | references | derived_from | response_to | part_of | other"
+    }
+  ],
+
+  "history": [
+    {
+      "date": "",
+      "actor": "",
+      "action": "ingested | updated | restricted | withdrawn | re_consented | label_added | label_removed",
+      "notes": ""
+    }
+  ]
+}
+
+
+-----
+
+## Field-by-field notes
+
+### item_id
+
+Stable identifier. Format: olht- + zero-padded integer. Never reused, never reissued.
+
+### contributors
+
+Multiple people may contribute to a single item (narrator, photographer, translator, etc.). Each gets a row with their own attribution style and consent record. name_public is what is shown; name_internal is the full name held in restricted-access records.
+
+### places
+
+*Coordinate precision matters.* For grave sites, sacred sites, and places vulnerable to extractive interest, set coordinate_precision to redacted_for_protection and either omit the coordinates or generalise them to the nearest island or region.
+
+### local_contexts
+
+The heart of the schema. The toolkit always applies at least one Notice. Labels are added as the community customises them on the Local Contexts Hub. hub_project_uri is generated when the project is registered on the Hub and is what makes the Notices machine-discoverable in DataCite and other systems.
+
+### access.tier
+
+Drives every downstream system. The Memory Constellation Engine, Ask Pulau Brani, and the public Memory Map only see items whose tier permits it. sacred_excluded items are never indexed, never embedded, never retrieved.
+
+### access.ai_processing
+
+A separate axis from access tier. An item might be public to humans but excluded from AI systems (for example, a community might be comfortable with public display but not with paraphrase by a chatbot). Always honour the stricter of the two.
+
+### community_review.confidence
+
+Many items in heritage archives carry uncertainty — names half-remembered, dates approximated, places renamed. Flag this honestly. The CARE Principles call this “preserving uncertainty,” and it matters for downstream AI work because confident-sounding hallucinations are the failure mode to avoid.
+
+### sensitivities
+
+Surface advisory text where culturally needed. Not censorship — context.
+
+### history
+
+Append-only log. Every change is recorded. Withdrawals, re-consents, Label additions, all logged.
+
+-----
+
+## Storage and access
+
+- The full record (including name_internal, consent records, internal notes) is held in a restricted-access store.
+- The public-facing surface is a redacted projection of the record, filtered by access.tier.
+- AI systems consume a further-filtered projection determined by access.ai_processing.
+- All projections carry the Notices and Labels. The Local Contexts framework is meaningless if the protocols are stripped during export.
+
+-----
+
+## Validation rules
+
+1. Every item must have at least one Notice in local_contexts.notices.
+1. Every item must have a consent.consent_record_id that resolves to a stored consent record.
+1. An item may not be saved with access.tier = "public" if any Label in local_contexts.labels is TK-SS, TK-WR, TK-MR, or TK-CO.
+1. An item may not be saved with access.ai_processing = "allowed" if any Label is TK-SS, TK-WR, TK-MR, or TK-CO.
+1. If provenance.attribution_incomplete is true, the Attribution-Incomplete Notice must appear in local_contexts.notices.
+1. A change to access.tier or local_contexts.labels must append an entry to history.
