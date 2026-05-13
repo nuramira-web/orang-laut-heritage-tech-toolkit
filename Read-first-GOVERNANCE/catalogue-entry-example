@@ -1,0 +1,177 @@
+# Catalog Entry Example: olht-0042
+
+A worked example showing the template filled in. This is fictional but realistic — useful as a reference for cataloging staff.
+
+-----
+
+## Item identity
+
+- *Item ID*: olht-0042
+- *Item type*: oral_history
+- *Date cataloged*: 2026-03-14
+
+## Titles
+
+- *Primary title*: “Pak Hassan remembers the boats at Pulau Brani”
+- *Title in Bahasa Melayu*: “Pak Hassan mengingati perahu-perahu di Pulau Brani”
+- *Alternative titles*: “Interview with Pak Hassan — boat-building and the harbour”
+
+## Description
+
+- *Short description (English)*: A 38-minute oral history with Pak Hassan, age 79, who lived on Pulau Brani until 1972 and worked as a boatwright. He describes traditional boat-building techniques, the layout of the kampung before resettlement, and the rituals observed when launching a new vessel.
+- *Short description (Bahasa Melayu)*: [community translation to be added]
+
+## Contributors
+
+### Contributor 1
+
+- Role: narrator
+- Name (public): Pak Hassan bin Mohd Salleh
+- Name (internal): [held in restricted consent record]
+- Attribution style: full_name
+- Consent record ID: consent-0042
+- Community affiliation: Former Pulau Brani resident; Orang Pulau descent
+
+### Contributor 2
+
+- Role: interviewer
+- Name (public): A. Hashim
+- Attribution style: full_name
+- Consent record ID: consent-0042b
+- Community affiliation: Pulau Brani Project research team
+
+### Contributor 3
+
+- Role: translator
+- Name (public): Faridah Yusof
+- Attribution style: full_name
+- Consent record ID: consent-0042c
+- Community affiliation: Pulau Brani Project, dialect translation
+
+## Dates
+
+- Created (events described): 1950s–1972
+- Created — uncertainty: era
+- Recorded or received: 2026-02-08
+- Cataloged: 2026-03-14
+
+## Places
+
+### Place 1
+
+- Name: Pulau Brani
+- Name in Bahasa Melayu: Pulau Brani
+- Type: island
+- Coordinates: 1.2530, 103.8350
+- Coordinate precision: approximate
+
+### Place 2
+
+- Name: [Kampung name redacted at narrator’s request]
+- Type: village
+- Coordinate precision: redacted_for_protection
+
+## Languages and dialect
+
+- Languages present: bm-SG, ms
+- Dialect notes: Local Pulau Brani Malay; contains several boat-building terms (gobek, pasak, lunas) confirmed with the Dialect and Vocabulary Archive.
+
+## Themes
+
+maritime_memory, foodways, ritual, kinship, dialect, resettlement
+
+## Media
+
+- Primary file path: media/audio/olht-0042.wav
+- Format: audio/wav
+- Duration: 2287 seconds
+- Transcription file path: media/transcripts/olht-0042.md
+- Translation file path: media/translations/olht-0042-en.md
+- Derivative files: media/audio/olht-0042-low.mp3 (public preview)
+
+## Provenance
+
+- Source: Recorded in Pak Hassan’s home in Tampines, Singapore, on 8 Feb 2026.
+- Chain of custody: Recording captured by A. Hashim, transferred to project archive 9 Feb 2026, cataloged 14 Mar 2026 after consent confirmation and community review.
+- Attribution incomplete? no
+- Attribution notes: All contributors named with explicit consent.
+
+## Rights
+
+- License code: (no separate code license; cultural content governed by Local Contexts Labels below)
+- License notes: Code in the toolkit repository is MIT-licensed. Cultural content carries Local Contexts protocols and is not subject to a permissive licence.
+
+-----
+
+## Local Contexts: Notices and Labels
+
+### Hub project URI
+
+https://localcontextshub.org/projects/[uuid-to-be-generated]/
+
+### Notices applied
+
+#### Notice 1
+
+- Code: TK-Notice
+- Scheme: Local Contexts
+- Scheme URI: https://localcontexts.org
+- Text: “The TK Notice is a visible notification that there are accompanying cultural rights and responsibilities that need further attention for any future sharing and use of this material. The TK Notice may indicate that TK Labels are in development and their implementation is being negotiated.”
+
+#### Notice 2
+
+- Code: Open-to-Collaborate
+- Scheme: Local Contexts
+- Scheme URI: https://localcontexts.org
+- Text: “Our institution is committed to the development of new modes of collaboration, engagement, and partnership with Indigenous peoples for the care and stewardship of past and future heritage collections.”
+
+### Labels applied
+
+(To be added when community Labels are authorised on the Hub. Current candidates pending community sign-off: TK Community Voice (TK CV), TK Attribution (TK A) for the boat-building terms, TK Outreach (TK O) for the publicly-displayable portions of the interview, TK Non-Commercial (TK NC).)
+
+-----
+
+## Access
+
+- Access tier: educators_researchers
+- Rationale: The narrator has consented to use by educators, researchers, and Pulau Brani Project partners. He has not yet consented to fully public display. A short approved excerpt (the boat-launching ritual portion, minutes 18:30–24:10) is separately cataloged as olht-0042-excerpt with tier public and TK Outreach Label pending.
+- AI processing: research_only
+  - The full recording may be used for transcription, alignment, and search by approved researchers, but may not be paraphrased or surfaced by the public Ask Pulau Brani chatbot.
+
+## Consent
+
+- Consent record ID: consent-0042
+- Date obtained: 2026-02-08
+- Obtained by: A. Hashim
+- Verbal or written: both
+- Audio record path: consent/audio/consent-0042.wav (restricted access)
+- Revocable: yes
+- Revocation contact: [project email]
+
+## Community review
+
+- Verified by community: yes
+- Verified by: Pulau Brani Project community review circle (3 members named in restricted record)
+- Verification date: 2026-03-10
+- Verification notes: Place names cross-checked with two other former residents. One date corrected (boat-launch ritual described as “around the time of the 1969 storm,” confirmed as Sept 1969). Two ritual phrases marked as culturally sensitive — see sensitivities below.
+- Confidence: high
+
+## Sensitivities
+
+- Flags: ritual_specificity, named_persons_deceased
+- Advisory text: This recording contains the names of several relatives who have passed away. It also describes ritual phrases used at boat launches that are considered private to the boat-building lineage; those specific phrases are redacted from the public transcript and replaced with [ritual phrase redacted]. The audio at those moments is muted in derivative files.
+
+## Related items
+
+- olht-0017 — depicts (Pak Hassan appears in a 1968 photograph cataloged separately)
+- olht-0089 — references (another narrator describes the same kampung layout)
+- dialect-0211 — derived_from (the boat-building term gobek was added to the Dialect Archive from this interview)
+
+## History
+
+|Date      |Actor                  |Action  |Notes                                                                |
+|----------|-----------------------|--------|---------------------------------------------------------------------|
+|2026-02-08|A. Hashim              |ingested|recording received, initial intake                                   |
+|2026-02-15|A. Hashim              |updated |transcription added                                                  |
+|2026-03-10|Community review circle|updated |community verification complete; ritual phrases flagged for redaction|
+|2026-03-14|A. Hashim              |updated |full catalog entry created; Notices applied; excerpt item created    |
