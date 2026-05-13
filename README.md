@@ -1,6 +1,6 @@
 # Orang Laut Heritage Tech Toolkit
 
-The Orang Laut Heritage Tech Toolkit is an open-source, community-led cultural stewardship and heritage infrastructure project developed as part of the Pulau Brani Project.
+The Orang Laut Heritage Tech Toolkit is an open-source, community-led cultural stewardship and heritage infrastructure project developed as part of the Pulau Brani Project: https://www.thepulaubraniproject.org/
 
 The project explores how archives, oral history, participatory storytelling, governance frameworks, education systems, and AI-assisted tools may support the responsible stewardship of maritime heritage and cultural memory in increasingly digital and AI-mediated futures.
 
