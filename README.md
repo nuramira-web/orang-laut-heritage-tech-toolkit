@@ -85,6 +85,25 @@ As AI increasingly mediates cultural memory, younger generations need opportunit
 
 The project approaches AI not as a replacement for community memory, but as a set of tools that may support accessibility, participation, discovery, intergenerational learning, and public understanding when guided by strong ethical principles.
 
+The toolkit therefore adopts a governance-first approach to AI-assisted heritage systems.
+
+Rather than treating AI outputs as authoritative, the project builds in:
+
+- human and community review workflows
+- consent withdrawal systems
+- layered permissions and archive access levels
+- AI-use restrictions
+- hallucination detection and critique tools
+- translation review systems
+- uncertainty preservation
+- ethical persuasion review
+- contributor rights frameworks
+- culturally sensitive access models
+- TK Labels and CARE-informed stewardship principles
+
+The project approaches AI not as a replacement for community memory, but as a set of experimental tools that require careful governance, transparency, participation, and ongoing stewardship.
+
+A core principle throughout the project is that cultural memory is relational, contextual, and community-linked — not simply data to be extracted or automated.
 ---
 
 # Project Architecture
