@@ -1,0 +1,27 @@
+[
+  {
+    "pronunciation_id": "PB-PRON-001",
+    "term": "Arus",
+    "language_or_dialect": "Malay",
+    "meaning": "Current or movement of water.",
+    "pronunciation_note": "",
+    "audio_filename": "audio/arus_001.mp3",
+    "speaker_name": "",
+    "preferred_public_credit": "Community Contributor",
+    "community_connection": "Pulau Brani / Southern Islands",
+    "context_of_use": "Used in relation to tides, currents, navigation, and fishing.",
+    "example_sentence": "",
+    "translation": "Current",
+    "emotional_tone": ["practical", "maritime memory"],
+    "related_place": "Southern Islands",
+    "related_ritual_or_festival": "",
+    "related_foodway": "",
+    "related_maritime_knowledge": ["tides", "currents", "navigation"],
+    "public_use": "Yes",
+    "education_use": "Yes",
+    "ai_use": "Yes",
+    "sensitivity_level": "Public",
+    "review_status": "Pending",
+    "notes": "Should be expanded with community examples."
+  }
+]
