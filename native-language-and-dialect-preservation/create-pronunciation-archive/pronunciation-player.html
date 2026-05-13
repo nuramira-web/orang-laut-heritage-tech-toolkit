@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pulau Brani Pronunciation Archive</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      margin: 0;
+      background: #f8f4ec;
+      color: #1f2933;
+    }
+
+    header {
+      background: #efe4d0;
+      padding: 2rem;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    input {
+      width: 100%;
+      padding: 0.85rem;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+      margin-bottom: 1.5rem;
+      font-size: 1rem;
+    }
+
+    .card {
+      background: white;
+      padding: 1.2rem;
+      border-radius: 16px;
+      margin-bottom: 1rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+
+    .tag {
+      display: inline-block;
+      background: #f0eadf;
+      padding: 0.25rem 0.55rem;
+      border-radius: 999px;
+      margin: 0.15rem;
+      font-size: 0.85rem;
+    }
+
+    .meta {
+      color: #5c6670;
+      font-size: 0.92rem;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Pulau Brani Pronunciation Archive</h1>
+    <p>Listen to words, phrases, and maritime vocabulary connected to island memory.</p>
+  </header>
+
+  <main>
+    <input id="searchInput" type="text" placeholder="Search words, meanings, places, rituals, or maritime terms..." />
+    <div id="results"></div>
+  </main>
+
+  <script>
+    let entries = [];
+
+    async function loadEntries() {
+      const response = await fetch("sample-pronunciations.json");
+      entries = await response.json();
+      renderEntries(entries);
+    }
+
+    function renderEntries(items) {
+      const results = document.getElementById("results");
+      results.innerHTML = "";
+
+      if (items.length === 0) {
+        results.innerHTML = "<p>No matching entries found.</p>";
+        return;
+      }
+
+      items.forEach(entry => {
+        const card = document.createElement("div");
+        card.className = "card";
+
+        const emotionalTags = (entry.emotional_tone || [])
+          .map(tag => `<span class="tag">${tag}</span>`)
+          .join(" ");
+
+        const maritimeTags = (entry.related_maritime_knowledge || [])
+          .map(tag => `<span class="tag">${tag}</span>`)
+          .join(" ");
+
+        card.innerHTML = `
+          <h2>${entry.term}</h2>
+          <p><strong>Meaning:</strong> ${entry.meaning}</p>
+          <p><strong>Language / dialect:</strong> ${entry.language_or_dialect}</p>
+          <p><strong>Context:</strong> ${entry.context_of_use}</p>
+
+          <audio controls>
+            <source src="${entry.audio_filename}" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+
+          <p class="meta">
+            <strong>ID:</strong> ${entry.pronunciation_id}<br>
+            <strong>Community connection:</strong> ${entry.community_connection}<br>
+            <strong>Public use:</strong> ${entry.public_use}<br>
+            <strong>Review status:</strong> ${entry.review_status}
+          </p>
+
+          <div>${emotionalTags}</div>
+          <div>${maritimeTags}</div>
+        `;
+
+        results.appendChild(card);
+      });
+    }
+
+    function searchEntries() {
+      const searchTerm = document.getElementById("searchInput").value.toLowerCase();
+
+      const filtered = entries.filter(entry => {
+        const text = JSON.stringify(entry).toLowerCase();
+        return text.includes(searchTerm);
+      });
+
+      renderEntries(filtered);
+    }
+
+    document.getElementById("searchInput").addEventListener("input", searchEntries);
+    loadEntries();
+  </script>
+</body>
+</html>
