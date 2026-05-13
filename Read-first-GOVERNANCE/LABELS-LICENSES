@@ -1,0 +1,130 @@
+# Local Contexts: Notices and TK Labels Reference
+
+This is the working reference for how the Orang Laut Heritage Tech Toolkit implements the Local Contexts framework. It is descriptive of the framework as published by Local Contexts; the canonical source is [localcontexts.org](https://localcontexts.org).
+
+Two key distinctions to keep in mind throughout:
+
+1. *Notices vs Labels.* Notices are applied by institutions and researchers (us, the toolkit team). Labels are applied by the community itself. Notices act as placeholders that signal Indigenous rights and interests; Labels operationalise the community’s specific protocols.
+1. *Default text vs customised text.* Every Label and Notice has a standard template text published by Local Contexts. Communities can use it as-is or replace it with their own wording. Icons, however, may never be altered.
+
+-----
+
+## Part 1: The four Notices
+
+Notices are what the toolkit applies at the project level now, before community Labels have been co-developed.
+
+### TK Notice (Traditional Knowledge Notice)
+
+*When to use.* Apply to any item, collection, or dataset that contains, references, or derives from traditional knowledge — oral histories, ritual descriptions, foodways, maritime knowledge, dialect, kinship, prayer. This is the default Notice for almost everything in the Community Archive.
+
+*Default text.* “The TK Notice is a visible notification that there are accompanying cultural rights and responsibilities that need further attention for any future sharing and use of this material. The TK Notice may indicate that TK Labels are in development and their implementation is being negotiated.”
+
+*Applies at:* project level (default), collection level, item level.
+
+-----
+
+### BC Notice (Biocultural Notice)
+
+*When to use.* Apply to material concerning maritime ecology, traditional plant knowledge, fish and tidal knowledge, traditional medicine, or any biodiversity-related cultural knowledge tied to the seas, islands, and shores of the Nusantara region. Orang Laut maritime ecological knowledge is biocultural by nature.
+
+*Default text.* “The BC Notice is a visible notification that there are accompanying cultural rights and responsibilities that need further attention for any future sharing and use of this material or data. The BC Notice recognizes the rights of Indigenous Peoples to permission the use of information, collections, data and digital sequence information generated from the biodiversity and genetic resources associated with their traditional lands, waters, and territories.”
+
+*Applies at:* project level, collection level, item level. Often used alongside the TK Notice.
+
+-----
+
+### Attribution Incomplete Notice
+
+*When to use.* Apply to any item where attribution is missing, partial, or known to be incorrect — colonial-era photographs without named subjects, museum-held objects with vague provenance, recordings made without clear consent records, materials inherited from earlier projects. A large share of historical material about Pulau Brani and the southern islands will fall here.
+
+*Default text.* “Collections and items in our institution have incomplete, inaccurate, and/or missing attribution. We are using this notice to clearly identify this material so that it can be updated, or corrected by communities of origin. Our institution is committed to collaboration and partnerships to address this problem of incorrect or missing attribution.”
+
+*Applies at:* collection level and item level.
+
+-----
+
+### Open to Collaborate Notice (also called Engagement Notice)
+
+*When to use.* Apply at the project level as a public commitment that the toolkit is open to collaboration, engagement, and partnership with the communities whose heritage is represented. This is a one-time project-level Notice.
+
+*Default text.* “Our institution is committed to the development of new modes of collaboration, engagement, and partnership with Indigenous peoples for the care and stewardship of past and future heritage collections.”
+
+*Applies at:* project level (recommended for the toolkit as a whole, displayed in the main README and on any public-facing site).
+
+-----
+
+## Part 2: The twenty TK Labels
+
+Labels are applied by the community once a customised suite has been authorised. They group into three categories: *Provenance* (who is the cultural authority), *Protocol* (how the material should be accessed), and *Permission* (what activities are approved).
+
+The toolkit should be built so that every Label below is a selectable field on a catalog entry. The community will, over time, customise the title text and default text for each Label they choose to use, and may translate the titles into local Malay.
+
+### Provenance Labels
+
+|Code     |Name                   |What it signals                                                                                                                                                                                                                     |
+|---------|-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|*TK A* |TK Attribution         |Used to correct historical mistakes or exclusions, especially regarding the names of people involved in performing, making, or originating the work, or the community of origin. Asks future users to apply the correct attribution.|
+|*TK CL*|TK Clan                |This material is traditionally not publicly available; clan membership and relationships govern its use and sharing.                                                                                                                |
+|*TK F* |TK Family              |This material belongs to a specific family and is governed by that family’s protocols for sharing.                                                                                                                                  |
+|*TK MC*|TK Multiple Communities|This material is held in common by, or has cultural meaning to, more than one community. Signals shared authority.                                                                                                                  |
+|*TK CV*|TK Community Voice     |This material is in the voice of the community itself, often used for oral histories or community-authored content.                                                                                                                 |
+|*TK CR*|TK Creative            |This material is creative work derived from traditional knowledge and may have additional contemporary authorship considerations.                                                                                                   |
+
+### Protocol Labels
+
+|Code     |Name                   |What it signals                                                                                                                   |
+|---------|-----------------------|----------------------------------------------------------------------------------------------------------------------------------|
+|*TK V* |TK Verified            |This material has been verified by the community as accurate and authentic.                                                       |
+|*TK NV*|TK Non-Verified        |This material is held by the institution but has not been verified by the community of origin.                                    |
+|*TK S* |TK Seasonal            |This material has seasonal conditions on its access or use (e.g. only shown or shared during certain ceremonies or times of year).|
+|*TK WG*|TK Women General       |Generally associated with women’s knowledge or practice.                                                                          |
+|*TK MG*|TK Men General         |Generally associated with men’s knowledge or practice.                                                                            |
+|*TK WR*|TK Women Restricted    |Restricted to women. Must not appear in general-access surfaces.                                                                  |
+|*TK MR*|TK Men Restricted      |Restricted to men. Must not appear in general-access surfaces.                                                                    |
+|*TK CS*|TK Culturally Sensitive|Material carries cultural sensitivities (death, ancestors, contested histories) and requires careful handling.                    |
+|*TK SS*|TK Secret / Sacred     |Sacred material with strict access controls. Must be excluded from public surfaces, AI training data, and AI retrieval indexes.   |
+
+### Permission Labels
+
+|Code     |Name                        |What it signals                                                                                           |
+|---------|----------------------------|----------------------------------------------------------------------------------------------------------|
+|*TK OC*|TK Open to Commercialization|The community has approved commercial use.                                                                |
+|*TK NC*|TK Non-Commercial           |No commercial use is approved.                                                                            |
+|*TK CO*|TK Community Use Only       |Restricted to use within the community. Not for external display or distribution.                         |
+|*TK O* |TK Outreach                 |Specifically prepared for outreach, education, and public engagement; the community has approved wide use.|
+|*TK CB*|TK Open to Collaboration    |The community is open to collaboration on the use, study, or extension of this material.                  |
+
+-----
+
+## Part 3: BC Labels (brief)
+
+Biocultural Labels parallel TK Labels but focus on biodiversity and genetic resources. They include BC Provenance (BC P), BC Multiple Provenance (BC MP), BC Consent Verified (BC CV), BC Consent Non-Verified (BC CNV), BC Research (BC R), BC Non-Commercial (BC NC), BC Commercialization (BC C), BC Outreach (BC O), and BC Open to Collaboration (BC CB). Use these for entries where the maritime ecological knowledge dimension is primary. Full reference: [localcontexts.org/labels/biocultural-labels](https://localcontexts.org/labels/biocultural-labels/).
+
+-----
+
+## Part 4: How this connects to the toolkit modules
+
+|Module                              |How Notices and Labels apply                                                                                                                                                  |
+|------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|*Community Archive*               |Every item carries at least one Notice. Labels applied where community has authorised.                                                                                        |
+|*Oral History Systems*            |Oral histories almost always carry TK Notice + likely TK Community Voice (TK CV) once Labels are live. Sacred recordings carry TK SS and are excluded from general processing.|
+|*Memory Constellation Engine*     |Retrieval index filters out all items carrying TK SS, TK WR, TK MR, or TK CO. Items carrying TK CS surface with a content advisory.                                           |
+|*Memory Map*                      |Place markers can carry TK Seasonal where rituals tied to a place have seasonal protocols.                                                                                    |
+|*Ask Pulau Brani*                 |Refuses to surface or paraphrase anything carrying TK SS, TK WR, TK MR, or TK CO. For TK CS material, the chatbot uses community-approved framings only.                      |
+|*Dialect and Vocabulary Archive*  |Sacred prayer language and ritual phrases carry TK SS or TK CS.                                                                                                               |
+|*Advocacy and Public Storytelling*|Public-facing exports must carry TK Outreach (TK O) only, with explicit community sign-off recorded in the catalog entry.                                                     |
+|*AI Heritage Lab*                 |Training datasets are filtered against the Label set. The AI Remix Studio respects every Label attached to source material.                                                   |
+
+-----
+
+## Part 5: Storing Notices and Labels in metadata
+
+The toolkit stores Notices and Labels using the [DataCite-compatible](https://support.datacite.org/docs/local-contexts-notices-and-labels) rightsList pattern. Each Notice or Label entry includes:
+
+- *identifier code* (e.g. TK-Notice, TK-A, BC-Notice)
+- *identifier scheme* (always Local Contexts)
+- *rights URI* (the Local Contexts Hub project URI generated when the Notice or Label is created on the Hub)
+- *scheme URI* (always https://localcontexts.org)
+- *template text* (default or customised)
+
+See METADATA_SCHEMA.md for the JSON shape and catalog_entry_template.md for the human-readable form.
