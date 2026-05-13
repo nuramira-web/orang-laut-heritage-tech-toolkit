@@ -1,0 +1,29 @@
+{
+  "project_title": "Lights Before Hari Raya",
+  "source_material": {
+    "source_id": "PB-ARCH-002",
+    "title": "Malam Tujuh Likur Memory",
+    "material_type": "Oral History Excerpt",
+    "description": "A memory of preparations and lights before Hari Raya.",
+    "story_context": "The contributor recalls preparing lamps and gathering with neighbours during Malam Tujuh Likur in the days before Hari Raya.",
+    "themes": ["Ramadan", "Hari Raya", "rituals", "family memory", "community"],
+    "emotions": ["belonging", "reverence", "anticipation", "continuity"],
+    "permissions": {
+      "public_use": "Yes",
+      "education_use": "Yes",
+      "creative_remix_use": "Yes",
+      "ai_use": "Yes"
+    },
+    "sensitivity_level": "Public"
+  },
+  "remix_format": "short video script",
+  "intended_audience": "Gen Z students in Singapore",
+  "creative_goal": "Introduce Malam Tujuh Likur as a living memory of light, prayer, preparation, and community before Hari Raya.",
+  "constraints": [
+    "Do not invent details.",
+    "Do not present all Malay families as practising this in the same way.",
+    "Keep uncertainty visible.",
+    "Preserve dignity and warmth.",
+    "Include a self-critical reflection on AI's role."
+  ]
+}
