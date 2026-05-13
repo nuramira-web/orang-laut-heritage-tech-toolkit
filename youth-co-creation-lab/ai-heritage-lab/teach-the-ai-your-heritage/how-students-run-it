@@ -1,0 +1,5 @@
+pip install -r requirements.txt
+export OPENAI_API_KEY="your-api-key"
+python teach-ai-your-heritage.py
+
+  It will generate: ai-teaching-output.json
