@@ -1,10 +1,6 @@
 # USER_GUIDE.md
 
-# User Guide
-
 ## Orang Laut Heritage Tech Toolkit
-
-## Pulau Brani Project
 
 Welcome to the Orang Laut Heritage Tech Toolkit.
 
