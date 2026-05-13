@@ -1,0 +1,70 @@
+# Quick Start: Implementing the Governance Layer
+
+A practical checklist for getting from "files in the repo" to "running governance layer." Designed to be worked through in order over a few weeks.
+
+---
+
+## Week 1: Foundation
+
+- [ ] Copy this entire governance/ folder into the repository root.
+- [ ] Update the repository's top-level README.md to link to governance/README.md prominently — under a heading like "Cultural Authority and Consent" placed before the technical module documentation.
+- [ ] Replace the existing bare ethics-and-consent-principles file with a redirect note pointing to governance/. (Better: delete it and link from the README.)
+- [ ] Add the four Local Contexts Notice icons to the top-level README, displayed prominently. Download icons from [localcontexts.org/labels/notices](https://localcontexts.org/notices/about-the-notices/). Do not modify the icons.
+
+## Week 2: Hub registration
+
+- [ ] Decide which entity registers on the Local Contexts Hub. Options: Pulau Brani Project as an institution; Nuramira as researcher; Singapore Heritage Society as institution. The Hub asks who holds the relationship with the community.
+- [ ] Register at [localcontextshub.org](https://localcontextshub.org).
+- [ ] Create the first Project on the Hub representing the toolkit as a whole.
+- [ ] Generate the four Notices (TK, BC, Attribution Incomplete, Open to Collaborate) on the Hub.
+- [ ] Copy the Hub Project URI into governance/README.md and into the metadata schema's local_contexts.hub_project_uri default.
+- [ ] Display the Notices on the Pulau Brani Project website and the GitHub repository's main README, each linking to its Hub URI.
+
+## Week 3: Pilot catalog entries
+
+- [ ] Identify three pilot items — ideally one oral history, one photograph, and one dialect entry — already collected with strong consent.
+- [ ] For each, complete a copy of catalog_entry_template.md, fully filled in, applying at minimum the TK Notice and any other relevant Notices.
+- [ ] Pair each pilot entry with a completed CONSENT_AGREEMENT_TEMPLATE.md. Store consent records in a restricted-access location (not in the public Git repo).
+- [ ] Have a small community circle review the three pilot entries. Note what was easy, what was hard, what wording confused people, what needs to be added.
+- [ ] Revise the templates based on this feedback before scaling.
+
+## Month 2: Community Label co-creation
+
+- [ ] Convene a community workshop dedicated to Labels. Walk through LOCAL_CONTEXTS_LABELS_REFERENCE.md together. Use the Local Contexts [Labels Adapt Activity packet](https://localcontexts.org/wp-content/uploads/2023/04/Local-Contexts-Labels-Intro-and-Adapt-Activity_Fillable.pdf) as a facilitation guide.
+- [ ] Identify which Labels the community wishes to customise. Likely first candidates: TK Community Voice (TK CV), TK Attribution (TK A), TK Culturally Sensitive (TK CS), TK Non-Commercial (TK NC), TK Outreach (TK O). Sacred/restricted Labels (TK SS, TK WR, TK MR) come up as needed; the community decides when.
+- [ ] Draft customised title text and template text for each Label, including translations into local Malay. Get community sign-off through whatever decision-making process the community has chosen.
+- [ ] Apply the customised Labels on the Hub. The Hub generates a Label URI for each — copy this back into catalog entries.
+
+## Month 3 onward: Operationalise
+
+- [ ] Build the metadata schema into whatever storage layer the Community Archive uses (database, file store, CMS). Mukurtu CMS has native TK Label support and may be worth evaluating; if building custom, mirror the schema in METADATA_SCHEMA.md exactly.
+- [ ] Implement the validation rules listed at the bottom of METADATA_SCHEMA.md as enforced checks at ingest time. Items missing a Notice should not be saved.
+- [ ] Implement the AI-processing filter. Every module that ingests catalog items (Memory Constellation Engine, Ask Pulau Brani, Memory Map) reads the access.tier and access.ai_processing fields and excludes accordingly. The filter is the contract.
+- [ ] Build the consent withdrawal flow. A contributor emails the revocation contact; an item is moved to a withdrawn tier within thirty days; downstream indexes are rebuilt to honour the withdrawal.
+- [ ] Add a public-facing "How we handle cultural materials" page on the Pulau Brani Project website that explains the framework in plain language and links to the governance folder.
+
+---
+
+## A note on Mukurtu
+
+[Mukurtu CMS](https://mukurtu.org) is an open-source content management system built specifically for community-controlled archives, with TK Labels integrated natively. Before building all of this in custom code, it is worth running a serious evaluation of whether Mukurtu can host the Community Archive module. If so, the toolkit becomes the layer that sits above Mukurtu — adding the AI Heritage Lab, Memory Constellation Engine, Ask Pulau Brani, Advocacy tools — while Mukurtu handles the cataloging foundation. This would save significant build time and inherit a community of practice.
+
+If Mukurtu is the choice, this governance folder remains useful as the human-readable specification and policy layer that sits above the platform.
+
+---
+
+## Common pitfalls to avoid
+
+- *Applying Labels without community authority.* Notices are yours to apply; Labels are not. If a Label appears in a catalog entry without a Hub Label URI and a named community authoriser, something has gone wrong.
+- *Stripping Notices and Labels during export.* The whole point is that protocols travel with the data. Any pipeline that exports without preserving the local_contexts field is broken.
+- *Treating consent as a one-time signature.* Consent is a relationship. Re-visit it when new uses, new partners, or new AI features are introduced.
+- *Letting AI systems see restricted material "just for indexing."* The filter must run before embedding, not after retrieval. Vectors of sacred material in an index are still a leak.
+- *Modifying the Label icons.* They are recognised internationally precisely because they look the same everywhere. Use them as published.
+
+---
+
+## Where to ask for help
+
+- *Local Contexts team*: support@localcontexts.org. They run free informational sessions and Hub demos.
+- *Mukurtu community*: forums on mukurtu.org.
+- *CARE Principles guidance*: Global Indigenous Data Alliance, gida-global.org.
