@@ -40,6 +40,18 @@ Instead, it explores how AI may support:
 when guided by strong ethical, cultural, and community principles.
 
 ---
+The AI Heritage Lab is designed not only for experimentation, but also for critique.
+
+Participants are encouraged to identify:
+- hallucinations
+- flattening
+- translation loss
+- emotional misinterpretation
+- overclaiming
+- governance gaps
+- ethical risks
+
+The project treats critical reflection on AI systems as part of cultural stewardship itself.
 
 # What students explore
 
