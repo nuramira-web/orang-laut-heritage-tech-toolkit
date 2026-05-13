@@ -1,0 +1,9 @@
+Run with either:
+
+pip install openai
+export OPENAI_API_KEY="your-api-key"
+python audience-translator.py
+
+or:
+
+python ethical-persuasion-checker.py
