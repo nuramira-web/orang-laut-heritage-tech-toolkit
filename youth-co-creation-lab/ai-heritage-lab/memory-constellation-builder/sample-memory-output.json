@@ -1,0 +1,37 @@
+{
+  "nodes": [
+    {
+      "id": "MEM-001",
+      "source_id": "PB-ARCH-002",
+      "title": "Malam Tujuh Likur Memory",
+      "type": "ritual_memory",
+      "description": "A memory of lights, preparation, and neighbourly gathering before Hari Raya.",
+      "themes": ["Ramadan", "Hari Raya", "ritual", "community"],
+      "emotions": ["belonging", "reverence", "continuity"],
+      "review_status": "needs_review"
+    },
+    {
+      "id": "MEM-002",
+      "source_id": "PB-ARCH-003",
+      "title": "Sea Route Between Islands",
+      "type": "maritime_memory",
+      "description": "A memory of movement between islands by boat, shaped by tides, currents, and weather.",
+      "themes": ["maritime life", "mobility", "navigation"],
+      "emotions": ["resilience", "wonder"],
+      "review_status": "needs_review"
+    }
+  ],
+  "links": [
+    {
+      "source": "MEM-001",
+      "target": "MEM-002",
+      "relationship": "linked_to_island",
+      "reason": "Both memories are connected to island life and community movement around Pulau Brani and surrounding islands.",
+      "confidence": "medium",
+      "review_status": "needs_review"
+    }
+  ],
+  "review_notes": [
+    "The relationship between ritual memory and maritime movement is interpretive and should be reviewed by community contributors."
+  ]
+}
