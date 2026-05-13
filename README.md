@@ -1,59 +1,66 @@
 # Orang Laut Heritage Tech Toolkit
-## Pulau Brani Project
 
-The Orang Laut Heritage Tech Toolkit is an open-source, community-led heritage infrastructure project developed as part of the Pulau Brani Project:https://www.thepulaubraniproject.org/ 
+The Orang Laut Heritage Tech Toolkit is an open-source, community-led cultural stewardship and heritage infrastructure project developed as part of the Pulau Brani Project.
 
-The toolkit explores how archives, oral history, storytelling, technology, participatory design, and artificial intelligence may support the stewardship of maritime heritage, cultural memory, and intergenerational knowledge in Singapore and across the broader Nusantara region.
+The project explores how archives, oral history, participatory storytelling, governance frameworks, education systems, and AI-assisted tools may support the responsible stewardship of maritime heritage and cultural memory in increasingly digital and AI-mediated futures.
 
-The project focuses especially on histories and lived experiences connected to:
+The toolkit focuses especially on histories and lived experiences connected to:
 
-- Pulau Brani
-- Orang Laut communities
-- Orang Pulau communities
-- Singapore’s southern islands
-- maritime memory
-- oral heritage
-- foodways
-- rituals and festivals
-- dialect and vocabulary
-- migration and resettlement
-- community storytelling
+* Pulau Brani
+* Orang Laut communities
+* Orang Pulau communities
+* Singapore’s southern islands
+* maritime memory
+* oral heritage
+* foodways
+* rituals and festivals
+* dialect and vocabulary
+* migration and resettlement
+* community storytelling
 
 ---
 
 # Vision
 
-The project explores how communities, educators, students, researchers, technologists, and cultural institutions may collaboratively steward memory in increasingly digital and AI-mediated futures.
+The project explores how communities, educators, students, researchers, technologists, and cultural institutions may collaboratively steward memory, language, archives, and public storytelling in the AI era.
 
 Rather than treating heritage as static information, the toolkit approaches heritage as:
 
-- lived experience
-- relational memory
-- emotional geography
-- language
-- ritual
-- movement
-- community knowledge
-- cultural stewardship
-- intergenerational continuity
+* lived experience
+* relational memory
+* emotional geography
+* language
+* ritual
+* movement
+* community knowledge
+* intergenerational continuity
+* cultural stewardship
+
+The project treats archives not simply as repositories of information, but as living systems of relationship, participation, interpretation, and care.
 
 ---
 
-# Core goals
+# Why this project exists
 
-The toolkit aims to support:
+Many heritage systems remain:
 
-- oral history preservation
-- participatory archives
-- maritime heritage documentation
-- community storytelling
-- AI literacy
-- ethical cultural stewardship
-- intergenerational learning
-- youth participation
-- public education
-- civic storytelling and advocacy
-- culturally grounded AI experimentation
+* institutionally siloed
+* technically inaccessible
+* disconnected from younger generations
+* weakly participatory
+* insufficiently governed for AI-mediated environments
+
+At the same time, AI increasingly shapes how knowledge is:
+
+* stored
+* searched
+* translated
+* interpreted
+* summarised
+* visualised
+* circulated
+
+The Pulau Brani Project explores how communities may participate more actively in shaping these systems while preserving dignity, nuance, uncertainty, plurality, and cultural specificity.
 
 ---
 
@@ -61,277 +68,420 @@ The toolkit aims to support:
 
 A central goal of the project is to help build cultural stewardship literacy for the AI era.
 
-As AI increasingly shapes how knowledge is stored, searched, interpreted, translated, and circulated, communities and younger generations need opportunities to think critically about:
+As AI increasingly mediates cultural memory, younger generations need opportunities to think critically about:
 
-- archives
-- memory
-- consent
-- bias
-- authorship
-- storytelling
-- public narrative
-- digital stewardship
-- cultural representation
-- ethical AI design
-- community governance
+* archives
+* memory
+* consent
+* bias
+* storytelling
+* authorship
+* emotional nuance
+* digital stewardship
+* cultural representation
+* public narrative
+* community governance
+* ethical AI design
 
-The project explores AI not as a replacement for community memory, but as a set of tools that may support accessibility, participation, discovery, intergenerational learning, and public understanding when guided by strong ethical principles.
-
----
-
-# Project architecture
-
-The toolkit is organised into interconnected modules.
-
-## 1. Community Archive
-
-A living, participatory archive documenting:
-
-- oral histories
-- family photographs
-- recipes
-- maps
-- ritual practices
-- maritime knowledge
-- dialect and vocabulary
-- objects
-- migration stories
-- community memory
-
-Includes:
-- archive governance
-- metadata guides
-- consent frameworks
-- digitisation guides
-- public display guidelines
-- archive submission tools
+The project approaches AI not as a replacement for community memory, but as a set of tools that may support accessibility, participation, discovery, intergenerational learning, and public understanding when guided by strong ethical principles.
 
 ---
 
-## 2. Oral History Systems
+# Project Architecture
 
-Tools supporting:
-
-- oral history collection
-- interview guidance
-- metadata creation
-- transcription workflows
-- emotional analysis
-- AI-assisted interpretation
-- oral history remixing
-
-Includes:
-- AI Story Weaver
-- Oral History Companion
-- Emotion Mapping tools
+The repository is organised into interconnected stewardship, archive, educational, AI, and public storytelling systems.
 
 ---
 
-## 3. Memory Constellation Engine
+# A. Governance and Stewardship
 
-An experimental AI-assisted heritage exploration system.
+This layer supports:
 
-Rather than treating archives as isolated objects, the engine connects:
+* cultural data governance
+* consent frameworks
+* TK Labels
+* CARE Principles
+* archive access policies
+* contributor rights
+* AI governance
+* layered permissions
+* community review
+* stewardship workflows
 
-- memories
-- rituals
-- places
-- foodways
-- emotions
-- oral histories
-- maritime knowledge
-- archive objects
-- dialect words
-- migration stories
+The governance layer recognises that cultural memory is not simply data.
 
-into navigable relationship constellations.
+It may involve:
 
-The engine supports:
-- semantic retrieval
-- emotional mapping
-- archive relationship discovery
-- participatory interpretation
-- source-grounded AI exploration
+* family relationships
+* spiritual practices
+* emotional memory
+* oral tradition
+* ritual knowledge
+* collective stewardship obligations
 
----
+### Includes
 
-## 4. Memory Map
-
-Interactive spatial storytelling tools connecting:
-
-- places
-- sea routes
-- village memories
-- rituals
-- foodways
-- oral histories
-- emotional geographies
-
-to lived maritime heritage.
+* `governance/`
+* licensing systems
+* consent frameworks
+* contributor agreements
+* archive access policies
+* stewardship principles
+* AI governance documentation
 
 ---
 
-## 5. Ask Pulau Brani
+# B. Community Archive and Documentation Systems
 
-A responsible heritage chatbot system built on approved and consented materials.
+This layer supports:
 
-The system is designed to:
-- support public education
-- improve archive accessibility
-- preserve nuance
-- encourage community participation
-- avoid hallucination and overclaiming
+* oral histories
+* family archives
+* photographs
+* recipes
+* maritime knowledge
+* ritual documentation
+* memory mapping
+* dialect and vocabulary preservation
+* pronunciation archives
+* metadata systems
+* digitisation workflows
 
----
+### Includes
 
-## 6. Dialect and Vocabulary Archive
-
-A living archive documenting:
-
-- island Malay vocabulary
-- maritime terminology
-- disappearing phrases
-- prayers
-- pantun
-- ritual language
-- kinship expressions
-- multilingual oral culture
-
-The archive treats language as living heritage and emotional memory.
+* `community-archive/`
+* `oral-history/`
+* `dialect-and-vocabulary/`
+* `memory-map/`
 
 ---
 
-## 7. Youth Co-Creation Lab
+# C. Educational and Participation Systems
 
-A participatory heritage innovation and learning space for:
+This layer supports:
 
-- students
-- educators
-- coders
-- designers
-- artists
-- researchers
-- community members
+* youth participation
+* intergenerational learning
+* classroom activities
+* participatory archives
+* AI literacy
+* storytelling workshops
+* oral history remixing
+* archive experimentation
 
-The lab explores how younger generations may creatively and ethically engage with heritage through:
+The project prioritises participation over passive consumption.
 
-- AI experimentation
-- storytelling
-- archive remixing
-- emotional mapping
-- memory constellation building
-- oral history projects
-- participatory design
+### Includes
 
----
-
-## 8. AI Heritage Lab
-
-A critical and creative AI experimentation space exploring:
-
-- AI transcription
-- archive search
-- chatbot governance
-- emotional analysis
-- memory mapping
-- AI-assisted storytelling
-- cultural representation
-- hallucination detection
-- ethical AI systems
-- community governance
-
-Includes Gen Z-oriented tools such as:
-
-### Teach the AI Your Heritage
-Students teach AI systems about rituals, foodways, dialect words, oral histories, and community memory while critically evaluating what the AI understands, misunderstands, or flattens.
-
-### AI Remix Studio
-Students creatively remix archive materials into podcasts, visual essays, soundscapes, digital zines, and speculative heritage futures while critically evaluating AI’s role in cultural interpretation.
+* `youth-co-creation-lab/`
+* classroom modules
+* workshop systems
+* archive remix studios
+* disappearing words projects
+* emotional heritage atlas
+* memory constellation workshops
 
 ---
 
-## 9. Advocacy and Public Storytelling
+# D. AI and Technical Systems
 
-A civic storytelling and public communication toolkit helping communities articulate heritage issues clearly, ethically, and accessibly.
+This layer supports:
 
-Includes:
+* semantic retrieval
+* memory relationship mapping
+* archive search
+* emotional analysis
+* dialect exploration
+* storytelling systems
+* chatbot systems
+* hallucination analysis
+* translation critique
+* AI-assisted archive interpretation
+
+The project approaches AI critically and experimentally rather than as technological solutionism.
+
+### Includes
+
+* `memory-constellation-engine/`
+* `ask-pulau-brani/`
+* AI retrieval systems
+* pronunciation archives
+* translation critique tools
+* archive discovery systems
+
+---
+
+# E. Public Storytelling and Advocacy
+
+This layer supports:
+
+* narrative building
+* public presentations
+* ethical persuasion review
+* community briefing
+* audience translation
+* participatory public storytelling
+* civic communication
+
+The project explores how communities may communicate cultural value, memory, and public futures ethically and accessibly.
+
+### Includes
+
+* `advocacy-and-public-storytelling/`
+* Narrative Builder
+* Audience Translator
+* Ethical Persuasion Checker
+* Presentation Builder
+* Community Brief Generator
+
+---
+
+# Core Educational and AI Heritage Tools
+
+## Teach the AI Your Heritage
+
+Students teach AI systems about:
+
+* rituals
+* dialect words
+* oral histories
+* foodways
+* maritime knowledge
+* family phrases
+
+while critically evaluating:
+
+* hallucinations
+* flattening
+* oversimplification
+* cultural misunderstanding
+* loss of nuance
+
+---
+
+## AI Remix Studio
+
+Students creatively remix archive materials into:
+
+* podcasts
+* soundscapes
+* visual essays
+* digital zines
+* memory collages
+* short-form storytelling
+
+while critically reflecting on AI’s role in cultural interpretation.
+
+---
+
+## Memory Constellation Builder
+
+An AI-assisted relationship mapping system connecting:
+
+* memories
+* rituals
+* emotions
+* archive materials
+* places
+* foodways
+* maritime knowledge
+* vocabulary
+* oral histories
+
+into navigable memory constellations.
+
+---
+
+## Pronunciation Archive
+
+A living oral archive preserving:
+
+* pronunciation
+* cadence
+* rhythm
+* oral texture
+* maritime vocabulary
+* disappearing phrases
+* multilingual overlap
+
+through participatory audio recording and linguistic stewardship.
+
+---
+
+# Governance Frameworks and Influences
+
+The project draws inspiration from and exists in conversation with work in:
+
+* participatory archives
+* Indigenous data governance
+* oral history ethics
+* digital humanities
+* community-controlled heritage systems
+* responsible AI governance
+
+Important reference points include:
+
+* Local Contexts
+* Traditional Knowledge (TK) Labels
+* CARE Principles for Indigenous Data Governance
+* Mukurtu CMS
+* Endangered Languages Project
+
+The project does not seek to replace existing heritage systems, but to contribute experimental, community-led, AI-aware, and participatory approaches to cultural stewardship.
+
+---
+
+# Core Principles
+
+1. Community stewardship over extraction
+2. Consent is ongoing
+3. Human review remains essential
+4. Preserve uncertainty honestly
+5. Preserve plurality and complexity
+6. Emotional nuance matters
+7. Accessibility across generations
+8. Participation over passive consumption
+9. AI should support, not replace
+10. Public storytelling should preserve dignity
+11. Creativity with care
+12. Governance is evolving
+
+---
+
+# Repository Structure
+
+```text
+governance/
+community-archive/
+oral-history/
+dialect-and-vocabulary/
+memory-map/
+memory-constellation-engine/
+ask-pulau-brani/
+youth-co-creation-lab/
+advocacy-and-public-storytelling/
+```
+
+---
+
+# Quick Start
+
+## Clone the repository
+
+```bash
+git clone https://github.com/YOUR-USERNAME/orang-laut-heritage-tech-toolkit.git
+```
+
+## Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+## Set OpenAI API key
+
+```bash
+export OPENAI_API_KEY=\"your-api-key\"
+```
+
+## Run AI tools
 
 ### Narrative Builder
-AI-assisted narrative generation grounded in memory, evidence, emotional framing, and public meaning.
 
-### Audience Translator
-Adapts heritage communication for different audiences without flattening nuance.
+```bash
+cd advocacy-and-public-storytelling/narrative-builder
+python automated-narrative-builder.py
+```
 
-### Ethical Persuasion Checker
-Evaluates advocacy materials for sensationalism, overstatement, extractive storytelling, and cultural flattening.
+### Teach the AI Your Heritage
 
-### Presentation Builder
-Supports emotionally intelligent, evidence-grounded public presentations.
+```bash
+cd youth-co-creation-lab/ai-heritage-lab/teach-the-ai-your-heritage
+python teach-ai-your-heritage.py
+```
 
-### Community Brief Generator
-Creates accessible public briefs from archive materials, oral histories, and workshop outputs.
+### Memory Constellation Builder
 
----
-
-# Guiding principles
-
-1. Community stewardship over extraction  
-2. Consent before collection and publication  
-3. Human review remains essential  
-4. Preserve uncertainty honestly  
-5. Emotional nuance matters  
-6. Heritage is relational, not only informational  
-7. AI should support, not replace  
-8. Accessibility across generations  
-9. Participation over passive consumption  
-10. Creativity with care  
-11. Preserve plurality and complexity  
-12. Public storytelling should preserve dignity  
+```bash
+cd youth-co-creation-lab/ai-heritage-lab/tools/memory-constellation-builder
+python constellation-builder.py
+```
 
 ---
 
-# Who this project is for
+# Contribution Pathways
 
-The toolkit is intended for:
+The project welcomes both technical and non-technical contributions.
 
-- community members
-- former island residents and descendants
-- students
-- educators
-- researchers
-- museums
-- libraries
-- archives
-- heritage practitioners
-- civic organisations
-- digital humanities projects
-- technologists
-- AI ethics researchers
-- storytellers
-- policymakers
+## Community contributions
+
+* oral histories
+* family archives
+* photographs
+* recipes
+* vocabulary
+* maritime knowledge
+* corrections
+* translations
+* review requests
+
+## Technical contributions
+
+* archive systems
+* metadata tooling
+* AI retrieval systems
+* pronunciation tools
+* memory mapping
+* storytelling interfaces
+* accessibility improvements
+* documentation
 
 ---
 
-# Long-term vision
+# Licensing and Stewardship
 
-The project explores how participatory archives, oral history, ethical AI systems, and cultural stewardship practices may support more thoughtful relationships between:
+Code in this repository is generally licensed under the MIT License.
 
-- memory
-- technology
-- identity
-- storytelling
-- public life
-- education
-- governance
-- intergenerational care
+Documentation is generally licensed under CC BY-NC 4.0 unless otherwise specified.
+
+Cultural materials may also carry:
+
+* contributor-specific permissions
+* TK Label expectations
+* layered access restrictions
+* AI-use limitations
+* community stewardship obligations
+
+Please review:
+
+* `LICENSE`
+* `DOCUMENTATION_LICENSE.md`
+* `TK_LABELS_NOTICE.md`
+* `AI_USE_POLICY.md`
+* `ARCHIVE_ACCESS_POLICY.md`
+
+---
+
+# Long-Term Vision
+
+The project explores how participatory archives, oral history systems, educational tools, governance frameworks, and AI-assisted interfaces may support more thoughtful relationships between:
+
+* memory
+* technology
+* identity
+* language
+* storytelling
+* education
+* governance
+* intergenerational care
 
 The goal is not only to preserve heritage.
 
-The goal is to cultivate new forms of participation, stewardship, literacy, creativity, and responsibility around cultural memory in the AI era.
+The goal is to cultivate new forms of stewardship, participation, literacy, creativity, and responsibility around cultural memory in the AI era.
 
 ---
 
-# Important note
+# Important Note
 
 This project is experimental, evolving, and community-led.
 
