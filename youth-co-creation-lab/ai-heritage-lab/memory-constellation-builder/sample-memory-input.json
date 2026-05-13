@@ -1,0 +1,26 @@
+[
+  {
+    "source_id": "PB-ARCH-002",
+    "title": "Malam Tujuh Likur Memory",
+    "material_type": "Oral History Excerpt",
+    "description": "A memory of preparations and lights before Hari Raya.",
+    "story_context": "The contributor recalls preparing lamps and gathering with neighbours during Malam Tujuh Likur in the days before Hari Raya.",
+    "themes": ["Ramadan", "Hari Raya", "rituals", "family memory"],
+    "public_use": "Yes",
+    "education_use": "Yes",
+    "ai_use": "Yes",
+    "sensitivity_level": "Public"
+  },
+  {
+    "source_id": "PB-ARCH-003",
+    "title": "Sea Route Between Islands",
+    "material_type": "Maritime Memory",
+    "description": "A remembered route used for movement between islands and mainland Singapore.",
+    "story_context": "The contributor describes travelling between islands by boat, navigating tides, currents, and weather conditions as part of everyday life.",
+    "themes": ["maritime life", "mobility", "sea routes", "navigation"],
+    "public_use": "Yes",
+    "education_use": "Yes",
+    "ai_use": "Yes",
+    "sensitivity_level": "Public"
+  }
+]
