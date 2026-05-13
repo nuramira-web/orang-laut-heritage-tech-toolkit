@@ -1,0 +1,176 @@
+# Catalog Entry Template
+
+Copy this file, rename to olht-XXXX.md, and fill in. One file per archive item. The fields mirror the JSON schema in METADATA_SCHEMA.md.
+
+Fields marked *[required]* must be filled before the item is ingested. Fields marked *[community]* must be filled or confirmed by a community reviewer before the item moves out of the holding tier.
+
+-----
+
+## Item identity
+
+- *Item ID* [required]: olht-XXXX
+- *Item type* [required]: oral_history | photograph | recipe | song | prayer | ritual_description | map | object | dialect_entry | video | other
+- *Date cataloged* [required]: YYYY-MM-DD
+
+## Titles
+
+- *Primary title* [required]:
+- *Title in Bahasa Melayu*:
+- *Alternative titles*:
+
+## Description
+
+- *Short description (English, 1–2 sentences)* [required]:
+- *Short description (Bahasa Melayu)*:
+- *Long description (English)*:
+- *Long description (Bahasa Melayu)*:
+
+## Contributors
+
+For each person involved, add a block.
+
+### Contributor 1
+
+- Role: narrator | photographer | recipient | translator | interviewer | community_representative | other
+- Name (public): [as the person wishes to be credited]
+- Name (internal): [full name, held in restricted record]
+- Attribution style: full_name | first_name | initials | community_member | anonymous | other
+- Consent record ID: consent-XXXX
+- Community affiliation:
+
+### Contributor 2
+
+(repeat block as needed)
+
+## Dates
+
+- Created (when the original event, recipe, story, song occurred):
+- Created — uncertainty: exact | approximate | decade | era | unknown
+- Recorded or received (when the material came to the project):
+- Cataloged:
+
+## Places
+
+For each place referenced, add a block.
+
+### Place 1
+
+- Name:
+- Name in Bahasa Melayu:
+- Type: village | island | sea_route | landing | grave_site | ritual_site | named_water | other
+- Coordinates (latitude, longitude):
+- Coordinate precision: exact | approximate | redacted_for_protection | unknown
+
+## Languages and dialect
+
+- Languages present: bm-SG, ms, en, other
+- Dialect notes:
+
+## Themes
+
+Select all that apply: maritime_memory, foodways, ritual, migration, kinship, dialect, resettlement, other.
+
+## Media
+
+- Primary file path:
+- Format:
+- Duration (seconds, for audio/video):
+- Transcription file path:
+- Translation file path:
+- Derivative files:
+
+## Provenance
+
+- Source: [who or where the item came from]
+- Chain of custody: [how the item reached the project]
+- Attribution incomplete? yes | no
+- Attribution notes:
+
+## Rights
+
+- License code (for code portions, or where applicable):
+- License notes:
+
+-----
+
+## Local Contexts: Notices and Labels [required]
+
+### Hub project URI
+
+https://localcontextshub.org/projects/[uuid]/
+
+### Notices applied (at minimum, TK Notice)
+
+#### Notice 1
+
+- Code: TK-Notice
+- Scheme: Local Contexts
+- Scheme URI: https://localcontexts.org
+- Text: [default text from LOCAL_CONTEXTS_LABELS_REFERENCE.md or customised]
+
+#### Notice 2
+
+(repeat for BC Notice, Attribution Incomplete, Open to Collaborate as appropriate)
+
+### Labels applied (only if community has authorised) [community]
+
+#### Label 1
+
+- Code: e.g. TK-CV
+- Name: e.g. TK Community Voice
+- Scheme: Local Contexts
+- Scheme URI: https://localcontexts.org
+- Hub Label URI: https://localcontextshub.org/projects/[uuid]/
+- Default text:
+- Customised text (community-approved):
+- Text in Bahasa Melayu:
+- Applied by: [community representative or body]
+- Applied date: YYYY-MM-DD
+
+#### Label 2
+
+(repeat as needed)
+
+-----
+
+## Access
+
+- Access tier [required]: public | educators_researchers | community | family | restricted_named | sacred_excluded
+- Rationale for this tier:
+- Named persons or groups (if restricted_named):
+- AI processing [required]: allowed | community_internal_only | research_only | excluded
+
+## Consent
+
+- Consent record ID [required]: consent-XXXX
+- Date obtained: YYYY-MM-DD
+- Obtained by:
+- Verbal or written: verbal | written | both
+- Audio record path (if verbal):
+- Revocable: yes (always)
+- Revocation contact:
+
+## Community review [community]
+
+- Verified by community: yes | no | in_progress
+- Verified by:
+- Verification date:
+- Verification notes:
+- Confidence: high | medium | low | unknown
+
+## Sensitivities
+
+- Flags: death | ancestors | contested_history | named_persons_deceased | ritual_specificity | gender_protocol | seasonal_protocol | other
+- Advisory text (shown to anyone accessing this item):
+
+## Related items
+
+- Related item ID → relationship type
+- (repeat as needed)
+
+## History (append-only)
+
+|Date        |Actor|Action  |Notes             |
+|------------|-----|--------|------------------|
+|YYYY-MM-DD|     |ingested|initial cataloging|
+|            |     |        |                  |
